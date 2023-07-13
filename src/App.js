@@ -23,6 +23,11 @@ function App() {
 
     return (
         <>
+        <Container className="my-4 text-center">
+                <div className="bg-primary rounded-3 py-2 px-4 mb-3">
+                    <h1 className="display-4 mb-0 text-white">Bobby's Budget Buddy</h1>
+                </div>
+            </Container>
             <Container className="my-4">
                 <Stack direction="horizontal" gap="2" className="mb-4">
                     <h1 className="me-auto">Budgets</h1>
